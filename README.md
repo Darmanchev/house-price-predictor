@@ -1,15 +1,16 @@
-Real Estate Price Predictor 🏠
+# Real Estate Price Predictor 🏠
 
-A machine learning project to analyze and predict property values based on the UCI Real Estate Valuation dataset.
+A machine learning project to analyze and predict property values based on the **UCI Real Estate Valuation** dataset.
 
-The model evaluates performance using:
+### Performance Metrics:
 
-    R-squared: Goodness of fit.
+- **R-squared**: Measures the goodness of fit.
+- **RMSE**: Average prediction error in price units.
+- **Feature Importance**: Ranking of factors (Age, Metro distance, Stores) by their impact on price.
 
-    RMSE: Average prediction error in price units.
+### Quick Start:
 
-    Feature Importance: Ranking which factors (Age, Metro distance, Stores) impact price most.
-
-Quick Start:
-    pip install pandas numpy matplotlib seaborn scikit-learn openpyxl statsmodels
-    python main.py
+1. **Install dependencies:**
+   ```bash
+        pip install pandas numpy matplotlib seaborn scikit-learn openpyxl statsmodels
+   ```
